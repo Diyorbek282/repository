@@ -17,5 +17,5 @@ delta = end_minutes - start_minutes
 
 hh = delta // 60
 mm = delta % 60
-
+hh+=time_diff
 print(f"{hh:02}:{mm:02}")
